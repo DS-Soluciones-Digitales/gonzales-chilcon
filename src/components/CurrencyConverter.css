@@ -1,0 +1,82 @@
+.currency-converter {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.converter-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.converter-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.converter-right {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  min-height: 300px;
+}
+
+.conversion-display {
+  background-color: #f9f9f9;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 24px;
+}
+
+.line-1 {
+  font-size: 16px;
+  color: #000000;
+  margin: 0 0 8px 0;
+}
+
+.line-2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000000;
+  margin: 0 0 8px 0;
+}
+
+.line-3 {
+  font-size: 12px;
+  color: #555555;
+  margin: 0;
+}
+
+.input-controls {
+  background-color: #fafafa;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.chart-loading,
+.chart-error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  width: 100%;
+  background-color: #fafafa;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  color: #555555;
+  font-family: Arial, sans-serif;
+}
+
+.chart-error {
+  color: #d32f2f;
+}
+
+@media (max-width: 768px) {
+  .converter-main {
+    grid-template-columns: 1fr;
+  }
+}
