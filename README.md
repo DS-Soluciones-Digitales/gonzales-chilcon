@@ -1,2 +1,2 @@
 # gonzales-chilcon
-Evaluacißon Carlos Daniel Gonzales Chilcón
+Evaluación Carlos Daniel Gonzales Chilcón
